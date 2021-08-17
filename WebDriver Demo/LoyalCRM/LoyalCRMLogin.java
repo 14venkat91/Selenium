@@ -10,8 +10,7 @@ public class LoyalCRMLogin {
         
     	System.setProperty("webdriver.gecko.driver","C:\\drivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
-		
-		//WebDriver driver = new ChromeDriver();
+				
     	
         String baseUrl = "http://localhost/loyal/login/";
         String expectedTitle = "Dashboard | Loyal CRM";
